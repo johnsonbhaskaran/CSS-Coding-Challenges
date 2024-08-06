@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap");
+
+:root {
+  color-scheme: dark only;
+  font-family: Manrope, Arial, sans-serif;
+}
+
+.container {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  height: 100vh;
+}
+
+.search-bar {
+  /* width: 33%; */
+  margin: 0 2em;
+  padding: 15px 20px;
+  font-family: inherit;
+  font-size: large;
+  border-radius: 30px;
+  border: 1px solid #ffffffaa;
+}
+
+.search-bar:focus {
+  width: 100%;
+}
+
+.search-bar:focus::placeholder {
+  color: transparent;
+}
+
+.hide {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}

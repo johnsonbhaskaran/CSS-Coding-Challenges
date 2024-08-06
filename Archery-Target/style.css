@@ -1,0 +1,37 @@
+:root {
+  color-scheme: dark only;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.circle {
+  border-radius: 50%;
+  position: absolute;
+}
+
+.circle-1 {
+  background: darkblue;
+  width: 24em;
+  height: 24em;
+}
+.circle-2 {
+  background: dodgerblue;
+  width: 18em;
+  height: 18em;
+}
+.circle-3 {
+  background: orangered;
+  width: 12em;
+  height: 12em;
+}
+.circle-4 {
+  background: yellow;
+  width: 6em;
+  height: 6em;
+}

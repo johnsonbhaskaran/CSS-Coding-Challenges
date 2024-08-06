@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap");
+
+:root {
+  color-scheme: dark only;
+  font-family: Manrope, Arial, sans-serif;
+}
+
+.card {
+  max-width: 350px;
+  margin: auto;
+  padding: 0.8em 1em 0.5em 1em;
+  background-color: #222;
+  border-radius: 1em;
+}
+
+.card-thumbnail img {
+  border-radius: 1em;
+  object-fit: cover;
+}
+
+.card-body {
+  display: flex;
+  align-items: center;
+  gap: 0.8em;
+  margin: 10px 0;
+}
+
+h3,
+p {
+  padding: 0;
+  margin: 5px;
+}
+
+.card-avatar img {
+  border-radius: 50%;
+}
+
+ul li {
+  list-style: none;
+  background-color: #333;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.card .card-stats {
+  display: none;
+  gap: 1em;
+}
+
+.card:hover .card-stats {
+  list-style: none;
+  display: flex;
+  gap: 1em;
+}
+
+.card-stats {
+  transition: 0.9s;
+}

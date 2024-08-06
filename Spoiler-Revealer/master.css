@@ -1,0 +1,32 @@
+:root {
+  color-scheme: dark only;
+  --spoiler-color: #fff;
+  font-size: 24px;
+}
+
+body {
+  width: 80vw;
+  margin: 3em auto;
+}
+
+p {
+  line-height: 1.5em;
+}
+
+.post {
+  background: #222;
+  padding: 2em;
+  margin-bottom: 1em;
+  border-radius: 1em;
+}
+
+.spoiler {
+  background: var(--spoiler-color);
+  color: var(--spoiler-color);
+  transition: all 0.5s ease-in;
+}
+
+.spoiler:hover {
+  background: initial;
+  color: initial;
+}
